@@ -60,7 +60,9 @@ The project structure is organized as follows:
 ```
 ├── data/
 │   ├── USSales/
-│   │   └── Sales_fact.csv
+│   │   ├── Sales_fact.csv
+│   │   ├── Sales_dimensions.xlsx
+│   │
 │   └── InternationalSales/
 │       ├── Country1_sales.csv
 │       ├── Country2_sales.csv
@@ -70,8 +72,7 @@ The project structure is organized as follows:
 ├── readme.md
 ├── .gitignore
 └── PowerBI/
-    ├── Data_Transformation.pbix
-    └── Visualization.pbix
+    ├── Sales Dashboard.pbit
 ```
 
 - The `data` directory contains the sales data files, including the USSales folder and the InternationalSales folder.
